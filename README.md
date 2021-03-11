@@ -18,11 +18,24 @@ Or install it yourself as:
 
     $ gem install svg_use
 
-## Usage
+## Helper method
 
-`svg_use(name:, classes: nil, style: nil)`
+```ruby
+svg_use(name:, classes: nil, style: nil)
+```
 
 where the name is the _id_ attribute of [_symbol_](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/symbol) tag
+
+for example
+```ruby
+svg_use(name: "icon", classes: "another-class", style: "display: none")
+```
+will render
+```html
+<svg class="icon another-class" style="display: none">
+    <use href="#icon"></use>
+</svg>
+```
 
 ## Development
 
