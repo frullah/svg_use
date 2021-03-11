@@ -1,4 +1,4 @@
-# SvgUse
+# SvgUse [![Build](https://github.com/frullah/svg_use/actions/workflows/main.yml/badge.svg)](https://github.com/frullah/svg_use/actions/workflows/main.yml)
 
 svg_use is helper for render svg [use](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) tag from inline SVG sprite
 
