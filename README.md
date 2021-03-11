@@ -28,11 +28,11 @@ where the name is the _id_ attribute of [_symbol_](https://developer.mozilla.org
 
 for example
 ```ruby
-svg_use(name: "icon-x", classes: "another-class", style: "display: none")
+svg_use(name: "icon-x", classes: "another-class", style: "fill: #000")
 ```
 will render
 ```html
-<svg class="icon another-class" style="display: none">
+<svg class="icon another-class" style="fill: #000">
     <use href="#icon-x"></use>
 </svg>
 ```
