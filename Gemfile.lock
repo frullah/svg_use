@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    svg_use (0.1.0)
+    svg_use (0.1.1)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
 
