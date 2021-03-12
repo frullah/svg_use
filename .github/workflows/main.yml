@@ -16,8 +16,7 @@ jobs:
         ruby: [2.5, 2.6, 2.7, 3.0]
         rails: [5.0.0, 5.1.0, 5.2.0, 6.0.0]
     env:
-      BUNDLE_PATH: vendor/bundle
-      RAILS_VERSION: ${{ matrix.rails }}
+      BUNDLE_GEMFILE: spec/gemfiles/rails_${{ matrix.rails }}.Gemfile
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
