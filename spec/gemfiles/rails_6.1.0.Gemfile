@@ -1,3 +1,8 @@
+# frozen_string_literal: true
 
-gem "actionview", "6.1.0"
-gem "activesupport", "6.1.0"
+source "https://rubygems.org"
+
+gemspec path: "../.."
+
+gem "actionview", "~> 6.1.0"
+gem "activesupport", "~> 6.1.0"
