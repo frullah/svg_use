@@ -5,7 +5,9 @@ require_relative "svg_use/version"
 
 module SvgUse
   def svg_use(name:, classes: nil, style: nil)
-    tag.svg(class: "icon #{classes}", style: style) { tag.use(href: "##{name}") }
+    content_tag(:svg, class: "icon #{classes}", style: style) do
+      content_tag(:use, nil, href: "##{name}")
+    end
   end
 end
 
