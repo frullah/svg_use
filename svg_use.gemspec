@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["frullah"]
   spec.email         = ["frullah12@gmail.com"]
 
-  spec.summary       = "use inline SVG in your views"
+  spec.summary       = "helper for render svg <use> tag when using inline SVG sprite"
   # spec.description   = ""
   # spec.homepage      = ""
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
