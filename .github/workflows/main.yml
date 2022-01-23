@@ -13,8 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: [2.5, 2.6, 2.7, 3.0]
-        rails: [5.2.0, 6.0.0, 6.1.0]
+        ruby: [2.6, 2.7, 3.0]
+        rails: [5.2.0, 6.0.0, 6.1.0, "7.0"]
+        exclude:
+          - rails: "7.0"
+            ruby: 2.6
     env:
       BUNDLE_GEMFILE: spec/gemfiles/rails_${{ matrix.rails }}.Gemfile
     steps:
