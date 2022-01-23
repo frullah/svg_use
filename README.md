@@ -2,7 +2,7 @@
 
 svg_use is a helper for render svg [use](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) tag from inline SVG sprite
 
-Tested with Ruby version 2.5 to 3.0 and Rails version 5.0 to 6.1
+Tested with Ruby version 2.6 to 3.0 and Rails version 5.2 to 7.0
 
 ## Installation
 
